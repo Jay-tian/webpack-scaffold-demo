@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "jay-webpack-scaffold": "^1.1.10"
+    "jay-webpack-scaffold": "^1.1.10",
+    "webpack-cli": "^3.0.1"
   },
   "scripts": {
     "build": "NODE_ENV=production settingPath='/webpack/setting.js' webpack --config './webpack/webpack.config.js'",
